@@ -159,7 +159,7 @@ width: 300px;
     background-color: honeydew;
     height:50px;
     padding:0 30px;
-    position:fixed;
+    position:sticky;
     width:100%
 }
 .main-nav h1{
