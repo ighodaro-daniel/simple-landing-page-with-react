@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 function Nav(){
     return(
-        <div className="main-nav">
+        <div className="main-nav mobi-nav">
         <div className="container flex">
         <h1 className='logo'>logo</h1>
         <nav>

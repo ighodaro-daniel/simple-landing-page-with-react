@@ -30,24 +30,29 @@ h2{
 @media (max-width:500px) {
     .main-nav{
         height:100px;
+        background-color: honeydew;
+        position:relative;
     }
     .main-nav .flex{
         flex-direction:column;
-    }
-.main-nav li:hover{
+  background-color: honeydew;
+}
+.main-nav ul li:hover{
     color:#fff;
-    border-bottom:2px solid black
+    border-bottom:2px solid black;
+    
 }
 .main-nav ul{
-    background: #fff;
     border-radius:5px;
     padding:10px 0;
+    color:transparent;
+
 }
 .promo{
-    height:auto;
+    height:500px;
     text-align:center;
     width:100%;
-    margin:auto
+    margin:auto;
 }
 .promo p{
     font-size:10px;
@@ -55,7 +60,7 @@ h2{
 }
 .promo .grid{
     position:absolute;
-    top:-20px
+    top:-70px
 }
 
 .promo h1{
@@ -81,49 +86,81 @@ h2{
     margin-bottom:-5px
 }
 .stats{
-    width:100%
+    width:300px
 }
 
 .blog-post{
-min-width: 400px;
     height:500px;
-    flex-direction:row
+    background-color: honeydew;
+    margin-left:100px
 }
- .page1{
-    position: relative;
-    top:-150px;
-    left:190px
+
+ #page p{
+    font-size: 500px;
+
 }
-.page2{
-    position:relative;
-top:140px;
-flex-wrap: nowrap;
-}
-.page3{
-position:relative;
-top:420px;
-right:190px
-}
+
 .grid-layout{
-    height: 500px;
+    height: 800px;
+    grid-template-rows: 1fr 1fr;
+
+
 }
+
 .card1{
 position:relative;
-top:500px;
+top:20px;
+right:0;
+grid-row:1/2;
+grid-column:1/2;
+width: 300px;
+
 }
 .card2{
     position:relative;
-    top:600px
-}
+    top:80px;
+    grid-column: 1/2;
+    grid-row:2/3;
+    width:300px
 }
 
-
+.card3{
+    display:none;
+}
+.product{
+    margin-bottom:50px ;
+    padding-top: 100px;
+    padding-left:30px
+}
+    .container-layout {
+      grid-template-columns: 1fr;
+      height: auto;
+    }
+    .container-layout h1 {
+      padding-top: 20px;
+    }
+    .container-layout p {
+      padding-top: 40px;
+    }
+    .container-layout ul {
+      padding: 0;
+      flex-direction: column;
+    }
+    .container-layout li {
+      padding-left: 0;
+      padding-top: 20px;
+    }
+  
+  
+}
 
 
 .main-nav {
     background-color: honeydew;
     height:50px;
     padding:0 30px;
+    position:fixed;
+    width:100%
 }
 .main-nav h1{
 font-size:30px;
@@ -139,7 +176,8 @@ line-height:1.2;
     margin:0 10px;
 }
 .main-nav li:hover{
-    color:#fff
+    color:#fff;
+    ;
     
 }
 .container{
@@ -281,9 +319,10 @@ grid-template-columns: 60% 40%;
 }
 
 .container-layout{
-    display:flex;
+    display:grid;
     background-color:honeydew;
-    height:150px;
+    height:auto;
+    grid-template-columns: 1fr 1fr 1fr ;
     
 }
 
@@ -311,6 +350,3 @@ padding:10px
     border-bottom:2px #fff solid
 }
 
-@media(max-width:500px){
-
-}

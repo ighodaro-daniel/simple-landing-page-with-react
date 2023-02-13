@@ -7,7 +7,7 @@ function Intro2(props){
         <div class="product">
             <div class="container">
                 <div class="product grid-layout">
-                    <div class="card">
+                    <div class="card card1">
                         <div class="circle">
 <img src={pexel} alt="flowers" />
                         </div>
@@ -15,7 +15,7 @@ function Intro2(props){
                         <p>the enormous lead of the well to do in the economic race has been considerably reduced 
                             it is the industrail worker who as a group have done best</p>
                     </div>
-                    <div class="card">
+                    <div class="card card2">
                         <div class="circle">
 <img src={pexel} alt="flowers" />
                         </div>
@@ -23,7 +23,7 @@ function Intro2(props){
                         <p>the enormous lead of the well to do in the economic race has been considerably reduced 
                             it is the industrail worker who as a group have done best</p>
                     </div>
-                    <div class="card">
+                    <div class="card card3">
                         <div class="circle">
 <img src={pexel} alt="flowers" />
                         </div>
