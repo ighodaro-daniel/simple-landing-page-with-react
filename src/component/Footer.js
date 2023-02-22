@@ -2,7 +2,7 @@ import React from "react";
 function Footer(){
 return(
 <div className="container-layout">
-       
+    <div className="footer">
         <h1 class="copyright">logo</h1>
         <p class="copyright">copyright &copy; 2033</p>
         
@@ -14,7 +14,7 @@ return(
                 
             </ul>
             
-        
+      </div> 
     
 </div>
 )

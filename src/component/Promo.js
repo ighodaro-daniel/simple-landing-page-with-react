@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css"
 function Promo(props){
 
 
@@ -8,8 +9,8 @@ function Promo(props){
                 <div className="grid">
                     <div className = "grid-item">
                     <div className="showcase-text">   
-        <h1>Don't miss the Deal</h1>
-        <p className="supporting-text">Subscribe to my newsletter,{props.name} and get 50% Deal</p>
+        <h1>Life is so Beautiful</h1>
+        <p className="supporting-text">Subscribe to my newsletter and get daily qoute</p>
     </div>
     <div className="promo-form">
         <form>
